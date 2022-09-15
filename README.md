@@ -1,14 +1,14 @@
 //////////////vue_js_comands////////////
 
-##requerd node js
+#requerd node js
 
 1. instollation
-##install vue cli
+#install vue cli
 npm install -g @vue/cli
 vue create my-project
 	
 
-##install vue.js using cli
+#install vue.js using cli
 npm init vue@latest
 cd <your-project-name>
 npm install
