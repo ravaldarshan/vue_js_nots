@@ -7,6 +7,7 @@ requerd node js
 npm install -g @vue/cli
 vue create my-project
 	
+
 //install vue.js using cli
 npm init vue@latest or npm i vue-router@latest
 cd <your-project-name>
