@@ -1,8 +1,4 @@
-//# main hading 
-//## for sub handing 
-//### 
-
-# vue_js_comands 
+### vue_js_comands 
 
 requerd node js
 
@@ -46,18 +42,22 @@ npm install --save-dev vue vue-template-compiler
 npm i vue-router@next
 npm install @popperjs/core
 
-# install laravel + vue.js 
+#watch in vue 
+npm run watch
+npm run watch-poll
 
-## install laravel
+### install laravel + vue.js 
+
+# install laravel
 laravel new vue_js_project
 
-## install vue js 
+# install vue js 
 npm install vue@next vue-loader@next
 
-## Install vitejs/plugin-vue plugin 
+# Install vitejs/plugin-vue plugin 
 npm i @vitejs/plugin-vue
 
-## Update vite.config.js
+# Update vite.config.js
 // vite.config.js
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
@@ -74,10 +74,10 @@ export default defineConfig({
     ],
 });
 
-## Vite Dev Server Start
+# Vite Dev Server Start
 npm run dev
 
-## Create Vue 3 App
+# Create Vue 3 App
 // app.js
 require('./bootstrap');
 
@@ -87,12 +87,12 @@ import App from './App.vue'
 
 createApp(App).mount("#app")
 
-## Create Vue 3 Component
+# Create Vue 3 Component
 <template>
     How To Install Vue 3 in Laravel 9 with Vite - TechvBlogs
 </template>
 
-## Connect Vue 3 Component with Laravel blade file
+# Connect Vue 3 Component with Laravel blade file
 
 <!DOCTYPE html>
 <html>
@@ -110,19 +110,19 @@ createApp(App).mount("#app")
 </body>
 </html>
 
-## Update Laravel Routes
+# Update Laravel Routes
 Route::get('/', function () {
     return view('app');
 });
 
-## Update .env file
+# Update .env file
 APP_URL=http://localhost:8000
 
-## build vue.js project
+# build vue.js project
 npm run build
 
-## Start the laravel server
+# Start the laravel server
 php artisan serve
 
-# refers
+### refers
 https://techvblogs.com/blog/how-to-install-vue-3-in-laravel-9-with-vite
