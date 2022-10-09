@@ -53,6 +53,9 @@ laravel new vue_js_project
 
 # install vue js 
 npm install vue@next vue-loader@next
+//inatall vue js using artisan 
+composer require laravel/ui
+php artisan ui vue
 
 # Install vitejs/plugin-vue plugin 
 npm i @vitejs/plugin-vue
