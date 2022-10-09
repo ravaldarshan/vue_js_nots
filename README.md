@@ -62,11 +62,9 @@ npm i @vitejs/plugin-vue
 
 # Update vite.config.js
 // vite.config.js
-import { defineConfig } from 'vite';
+`import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
 import vue from '@vitejs/plugin-vue'
-
-
 export default defineConfig({
     plugins: [
         vue(),//add vue project
@@ -75,7 +73,7 @@ export default defineConfig({
             'resources/js/app.js',
         ]),
     ],
-});
+});`
 
 # Vite Dev Server Start
 npm run dev
@@ -97,7 +95,7 @@ createApp(App).mount("#app")
 
 # Connect Vue 3 Component with Laravel blade file
 
-<!DOCTYPE html>
+`<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -108,10 +106,9 @@ createApp(App).mount("#app")
 </head>
 <body>
 	<div id="app"></div>
-
 	@vite('resources/js/app.js')
 </body>
-</html>
+</html>`
 
 # Update Laravel Routes
 Route::get('/', function () {
