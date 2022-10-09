@@ -6,16 +6,12 @@
 vue create my-project
 
 ``npm install``
-`npm install
-
+"npm install
 npm install
-
 npm install
-
 npm install
-
 npm install
-`
+"
 
 
 npm run dev
